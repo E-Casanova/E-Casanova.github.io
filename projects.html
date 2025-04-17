@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects – Eduardo Casanova</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo">Eduardo<span>Casanova</span></div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="projects-page">
+    <h1>My Projects</h1>
+    <div class="project-grid">
+
+      <div class="project-detail">
+        <div class="project-gallery">
+          <a href="assets/images/project1.jpg"><img src="assets/images/project1.jpg" alt="Motion Tracker 1" /></a>
+          <a href="assets/images/project1b.png"><img src="assets/images/project1b.png" alt="Motion Tracker 2" /></a>
+        </div>
+        <div class="project-info">
+          <h2>Motion Tracker for Gym Analytics</h2>
+          <p>IoT-based system to monitor and analyze workout patterns. Designed custom PCBs with BLE modules for low-power, real-time data communication. The system captures motion data through accelerometers and gyroscopes, transmitting it to a central hub that processes and visualizes the information. This allows users to track their form, repetitions, and progress over time.</p>
+          <p>The dashboard provides comprehensive analytics including workout intensity, duration, and improvement metrics to help users optimize their training routines.</p>
+          <div class="tags">
+            <span>Arduino</span>
+            <span>IoT</span>
+            <span>BLE</span>
+            <span>PCB Design</span>
+            <span>Data Analytics</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-detail">
+        <div class="project-gallery">
+          <a href="assets/images/project2.jpg"><img src="assets/images/project2.jpg" alt="LNA and VCO 1" /></a>
+          <a href="assets/images/project2b.png"><img src="assets/images/project2b.png" alt="LNA and VCO 2" /></a>
+        </div>
+        <div class="project-info">
+          <h2>LNA and VCO Design</h2>
+          <p>Designed a Low Noise Amplifier (LNA) and Voltage Controlled Oscillator (VCO) using Cadence Virtuoso for RF applications. The LNA achieves a noise figure below 1.5dB while maintaining high gain across the target frequency band.</p>
+          <p>The VCO design offers precise frequency control with minimal phase noise, making it suitable for modern communication systems. Both components were optimized for low power consumption while maintaining excellent performance characteristics.</p>
+          <div class="tags">
+            <span>RF Design</span>
+            <span>Cadence</span>
+            <span>Virtuoso</span>
+            <span>Analog Design</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-detail">
+        <div class="project-gallery">
+          <a href="assets/images/project3.png"><img src="assets/images/project3.png" alt="Robotic Control 1" /></a>
+          <a href="assets/images/project3b.png"><img src="assets/images/project3b.png" alt="Robotic Control 2" /></a>
+        </div>
+        <div class="project-info">
+          <h2>Robotic Control System</h2>
+          <p>Precision control of a 4-axis robotic arm using embedded C and PID loops. Integrated sensors and encoders for feedback control and improved motion reliability. The system can be programmed for complex movement patterns with high precision and repeatability.</p>
+          <p>Created a user-friendly interface that allows for both manual control and automated sequence programming. The arm achieves positioning accuracy within 0.1mm, making it suitable for delicate assembly tasks and educational demonstrations.</p>
+          <div class="tags">
+            <span>Robotics</span>
+            <span>Embedded C</span>
+            <span>Motor Control</span>
+            <span>PID</span>
+            <span>Sensors</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</body>
+</html>
